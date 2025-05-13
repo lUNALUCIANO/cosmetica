@@ -770,5 +770,16 @@ h2 {
     text-align: center;
   }
 }
+@media screen and (max-width: 700px) {
+  justify-content:center .div1,
+  .div2, .div3 .div4 {
+    width: 100%;
+    max-width: 90vw;
+    height: auto;
+  }
+  .div1 .div2 .div3 .div4 img {
+    height: auto;
+  }
+}
 
 /*# sourceMappingURL=estilo.css.map */
