@@ -124,7 +124,7 @@ h2{
 }
 
 
- @media screen and (max-width: 700px) {
+ /*@media screen and (max-width: 700px) {
     
     .animaciones{
       flex-direction: column;
@@ -139,6 +139,28 @@ h2{
 
     .div1 .div2 .div3 .div4 img {
       height: auto; 
+    }
+  }
+}*/
+
+@media screen and (max-width: 700px) {
+  .animaciones {
+    flex-direction: column; // ¡Aquí está la clave!
+    align-items: center; // Centra los divs horizontalmente
+    padding: 10px;
+
+    .div1,
+    .div2,
+    .div3,
+    .div4 {
+      max-width: 90vw;
+      width: 100%;
+      height: auto;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }

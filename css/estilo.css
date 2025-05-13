@@ -771,18 +771,43 @@ h2 {
     text-align: center;
   }
 }
+/*@media screen and (max-width: 700px) {
+
+    .animaciones{
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+
+    .div1,.div2,.div3 .div4 {
+      width: 100%;
+      max-width: 90vw; 
+      height: auto; 
+    }
+
+    .div1 .div2 .div3 .div4 img {
+      height: auto; 
+    }
+  }
+}*/
 @media screen and (max-width: 700px) {
   .animaciones {
     flex-direction: column;
     align-items: center;
     padding: 10px;
   }
-  .animaciones .div1, .animaciones .div2, .animaciones .div3 .div4 {
-    width: 100%;
+  .animaciones .div1,
+  .animaciones .div2,
+  .animaciones .div3,
+  .animaciones .div4 {
     max-width: 90vw;
+    width: 100%;
     height: auto;
   }
-  .animaciones .div1 .div2 .div3 .div4 img {
+  .animaciones .div1 img,
+  .animaciones .div2 img,
+  .animaciones .div3 img,
+  .animaciones .div4 img {
+    width: 100%;
     height: auto;
   }
 }
