@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contacto</title>
+     
+      <!--Font awesone-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+      <!--Font Google-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+       <!--Booststrap-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <!--Animaciones -->
+    <link
+    rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <!--Estilos nuevos con Sass-->
+     <link rel="stylesheet" href="../css/estilo.css">
+    </head>
+ <body>
+
+      <!--Inico de Header-->
+
+  <header>
+
+    <nav class="navbar navbar-expand-lg bg-success ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../imagen/logo.schwarzkopf.png" alt="" alt="Lofo de marca" >
+        </a>
+        <a class="navbar-brand" href="#" >Distribuidora Luna</a>
+        <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="producto.html">Productos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="fase">
+                Nuestras Lineas 
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../pages/producto.venta.karsse.html">Karssel</a></li>
+                <li><a class="dropdown-item" href="../pages/producto.venta.html">Fidelite</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="../pages/producto.venta.schwarzkopf.html">Schwarzkopf</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar tu Producto" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+  </header>
+  <!--Inicio de main -->
+    <main>
+     <!--Ubicacion del Local-->
+     <section>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3122.2128515106847!2d-58.5012762!3d-34.58547009999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb785539f847f%3A0x5dc9bbcfd80de5e7!2sTerrada%204718%2C%20C1419%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e1!3m2!1ses-419!2sar!4v1742405354282!5m2!1ses-419!2sar"
+          width="100%"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      <!--titulo de Formulario-->
+
+      <h1>Queremos Conocerte y saber mas de Vos</h1>
+
+      <!--Contemido de Formulario-->
+
+      <section class="texto-for">
+        <p>Si deseas más información sobre nuestras marcas  o colaborar con nosotros, completa el siguiente formulario. Nos encantaría saber de ti y responder a cualquier pregunta o sugerencia que tengas.</p>
+        <p>Tu opinión es muy importante para nosotros. Si tienes alguna recomendación o deseas compartir tus propias imágenes con nuestra comunidad, no dudes en escribirnos.</p>
+        <p>Completa este formulario y Conecta con Nosotros.</p>
+      </section>
+
+      <!--Formulario basico-->
+      <div class="formulario" >  
+        <form action="" method="post">
+
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre">
+
+          <label for="apellido">Apellido :</label>
+          <input type="text" name="apellido" id="aoellido">
+        
+          <label for="email">Correo Electronico:</label>
+          <input type="email" name="email" id="email">
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea name="mensaje" id="mensaje" cols="40" rows="10"></textarea>
+
+          <button type="submit">Enviar</button>
+
+        </form>
+      </div>  
+
+    </main>
+
+    <!--Inico de Pie de Pagina Responsil-->
+  
+    <footer>
+      <section class="seccion-1">
+        <div>
+          <h3>Contacto</h3>
+          <p>Lunaluciano81@hotmail.com</p>
+          <p> Tel : 1138161716</p>
+          <p><span>Direccion :</span> Terrada  4718</p>
+        </div>
+        <div>
+          <h3>Links</h3>
+          <a href="../index.html">Inicio</a>
+          <a href="producto.html">Producto</a>
+          <a href="contacto.html">Contacto</a>
+          <a href="nosotros.html">Nosotros</a>
+        </div>
+        <div>
+          <h3>Redes sociales</h3>
+            <div class="redes-sociales">
+             <a href="#"><i class="fa-solid fa-house"></i></a>
+             <a href="https://www.facebook.com/luciano.luna.351"><i class="fa-brands fa-facebook"></i></a>
+             <a href=""><i class="fa-brands fa-instagram"></i></a>
+             <a href="https://wa.me/qr/PDEMB3HJK3HFL1"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+      </section>
+
+      <section class="seccion-2">
+          <p>2025 @ Todos los derechos reservados</p>
+      </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+  
+  
+    </body>
+</html>

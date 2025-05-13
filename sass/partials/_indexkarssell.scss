@@ -1,0 +1,113 @@
+/*Estilos de Karssell*/
+
+.cont-fidelite{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    padding: 20px;
+    margin: 10px;
+    background-color:$grismuyclaro;
+
+    .cont-foto1{
+        background-color:$blanco;
+        display: block;
+        align-items: flex-end;
+        align-content: flex-end;
+        border-radius: 5px;
+        margin: 20px; 
+
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            
+        }
+        .descrip1 p {
+            display: block;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .boton  a{
+            display: block;
+            justify-content: center;
+            text-decoration: none;
+            color:$azul;
+            font-size: 25px;
+            text-align: center;
+            font-weight:border ;
+            background-color:rgba(209, 213, 219, );
+            border-radius: 10px;
+            margin: 5px;
+            transition: transform 0.3s ease;
+        
+            
+        }
+        a:hover {
+            transform: scale(1.1);
+            color: $celesteboton ;
+        }
+          
+    }
+
+    /*Se utilizo @extend  para los colores de botones */
+    .cont-foto2{
+        @extend .cont-foto1;
+        a:hover {
+            transform: scale(1.1);
+            color: $negro ;
+        }
+
+    }
+    .cont-foto2{
+        @extend .cont-foto1;
+        a:hover {
+            transform: scale(1.1);
+            color: $negro ;
+        }
+
+    }
+    .cont-foto2{
+        @extend .cont-foto1;
+        a:hover {
+            transform: scale(1.1);
+            color: $negro ;
+        }
+
+    }
+    .cont-foto3{
+        @extend .cont-foto1;
+        a:hover {
+            transform: scale(1.1);
+            color: $blanco ;
+        }
+    } 
+    .cont-foto4{
+        @extend .cont-foto1;
+        a:hover {
+            transform: scale(1.1);
+            color: $naranja;
+        }
+    } 
+    .cont-foto5{
+        @extend .cont-foto1;
+        a:hover {
+            transform: scale(1.1);
+            color: $celesteboton;
+        }
+    } 
+    .cont-foto6{
+        @extend .cont-foto1;
+        a:hover {
+            transform: scale(1.1);
+            color: $azuloscuro ;
+        }
+    } 
+    .cont-foto7{
+        @extend .cont-foto1;
+        a:hover {
+            transform: scale(1.1);
+            color: $azul ;
+        }
+    }  
+}        

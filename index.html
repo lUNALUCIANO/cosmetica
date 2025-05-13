@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Pagina de Inicio</title>
+    
+    <!--Font awesone-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+    <!--Font Google-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <!--Booststrap-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--Animaciones -->
+    <link
+    rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!--Estilo nuevo con sass-->
+    <link rel="stylesheet" href="css/estilo.css">
+
+  </head>
+
+  <body>
+
+   <!--Inico de Header con Boostrap-->
+
+   <header>
+
+    <nav class="navbar navbar-expand-lg bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="imagen/logo.schwarzkopf.png" alt="" alt="Lofo de marca" >
+        </a>
+        <a class="navbar-brand" href="#" >Distribuidora Luna</a>
+        <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html" >Inicio</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="pages/producto.html">Productos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="pages/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nuestras Lineas 
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="pages/producto.venta.karsse.html">Karssel</a></li>
+                <li><a class="dropdown-item" href="pages/producto.venta.html">Fidelite</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="pages/producto.venta.schwarzkopf.html">Schwarzkopf</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar tu Producto" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+  </header>
+
+  <!--Inio de Cuerpo-->
+
+  <main>
+
+    <!--Carrousel con Bosstrap-->
+
+
+    <div class="container-fluid py-4 bg-light">
+      <div id="carouselTexto" class="carousel slide " data-bs-ride="carousel">
+          <div class="carousel-inner">
+      
+            <div class="carousel-item active">
+                 <img src="imagen/natural-cosmetics-desk_23-2148574904.jpg" class="d-block w-100 img-fluid" alt="Cosmética natural escritorio">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>✨ ¡Bienvenida a tu rutina de belleza perfecta!</h3>
+                <button class="btn btn-custom">Pedimos más Info</button>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                 <img src="imagen/natural-cosmetics-frame_23-2148574907.jpg" class="d-block w-100 img-fluid" alt="Productos cosmética natural">
+              <div class="carousel-caption d-none d-md-block">
+                  <h3>💄 Descubrí los nuevos productos de cosmética natural</h3>
+                  <button class="btn btn-custom">Encontrá lo que buscás</button>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+                 <img src="imagen/natural-cosmetics-frame_23-2148574907.jpg" class="d-block w-100 img-fluid" alt="Línea Natura cuidado de la piel">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>🧴 Cuidá tu piel con lo mejor de la línea Natura</h3>
+                <button class="btn btn-custom">Comprá ahora</button>
+              </div>
+            </div>
+
+          </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTexto" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselTexto" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+            </button>
+      </div>
+    </div>
+
+       <!--Inicio de titulo de ventas-->
+
+
+      <h1>Conoce todas nuestras Lineas y Marcas</h1>
+
+     <div class="container2">
+        <section class="intro">
+            <h2>Podes ver la info del Producto</h2>
+            <p>
+                Descubrí todas nuestras marcas y opciones de compra en la
+                <a href="./index.html">página principal.</a><br> Encontrá también nuestras
+                <strong>ofertas y condiciones</strong> directamente en el sitio web oficial.<br>
+                ¿Tenés dudas? Contactanos por teléfono o escribinos a
+                <a href="mailto:contacto@distri.luna.com">contacto@distri.luna.com</a>.
+            </p>
+            <p>
+                Además, podés buscar productos, leer opiniones y conocer más información en
+                <a href="https://www.google.com.ar" target="_blank">Google</a>.
+            </p>
+        </section>
+
+        
+
+        <section class="info-producto">
+            <h2>Paso a Paso: Información del Producto</h2>
+
+            <div class="beneficios">
+                <p><strong>Propiedades cosméticas:</strong></p>
+                <ul>
+                    <li>Hidrata y suaviza la piel</li>
+                    <li>Mejora la elasticidad</li>
+                    <li>Devuelve el brillo natural</li>
+                    <li>Corrige el acné y puntos negros</li>
+                    <li>Repara puntas abiertas y secas</li>
+                    <li>Da brillo y movimiento al cabello</li>
+                    <li><em>Previene estrías y signos de envejecimiento</em></li>
+                </ul>
+                <p>
+                    También se utiliza para el cuidado de manos, pies y labios, para tratar grietas,
+                    labios agrietados y marcas por acné o varicela.
+                </p>
+            </div>
+
+            <div class="referencia">
+                <p><strong>Fuente:</strong> Ecco Verde, MiiN Cosmetics, Beauty Blog</p>
+                <p>El aceite de argán, también conocido como "oro líquido", es rico en ácidos grasos que mejoran la elasticidad de la piel y ayudan a restaurar su brillo natural.</p>
+                <p>Ideal para pieles secas, con quemaduras solares o envejecimiento prematuro.</p>
+            </div>
+        </section>
+
+        <section class="ofertas">
+            <h2>Nuestras Ofertas Semanales</h2>
+            <p>
+                Aprovechá nuestras <strong>promociones semanales</strong> según el banco.
+                <br>
+                <strong>Lunes a Jueves:</strong> 30% OFF pagando en efectivo en nuestros locales de CABA.
+            </p>
+        </section>
+    </div>
+
+     
+     
+    <!--Inicio Animaciones-->
+    
+    <div class="animaciones">
+      <div class="div1">
+        <h4>Tintura Schwarzkopf</h4>        
+        <img src="imagen/foto de Natura.jpg"  alt="Foto de tintura de Schwarzkopf" class="img-fluid">
+        
+      </div>
+      <div class="div2">
+        <h4>Brochas y colores </h4>
+        <img  src="imagen/depositphotos_115192694-stock-photo-professional-makeup-brushes-and-tools.jpg"  alt="Fotos de Brochas " class="img-fluid">
+      </div>
+      <div class="div3">
+        <h4>Todo para tu Spa Aca</h4>
+        <img  src="imagen/skincare-2357980_1280.jpg" alt="Foto de skincare" >
+      
+      </div>
+      <div class="div4">
+        <h4>Conoce nuestra Formulas</h4>
+       <img  src="imagen/natural-cosmetics-desk_23-2148574904.jpg" alt="Foto de natura cosmetica" class="img-fluid">
+      </div>
+    </div>
+
+
+
+
+  
+    
+  </main>
+
+
+    <!--Inico de Pie de Pagina Responsil-->
+
+     <footer>
+        
+        <section class="seccion-1">
+          <div>
+            <h3>Contacto</h3>
+            <p>Lunaluciano81@hotmail.com</p>
+            <p> Tel : 1138161716</p>
+            <p><span>Direccion :</span> Terrada  4718</p>
+          </div>
+          <div>
+            <h3>Links</h3>
+            <a href="#">Inicio</a>
+            <a href="pages/producto.html">Producto</a>
+            <a href="pages/contacto.html">Contacto</a>
+            <a href="pages/nosotros.html">Nosotros</a>
+          </div>
+          <div>
+            <h3>Redes sociales</h3>
+              <div class="redes-sociales">
+               <a href="#"><i class="fa-solid fa-house"></i></a>
+               <a href="https://www.facebook.com/luciano.luna.351"><i class="fa-brands fa-facebook"></i></a>
+               <a href=""><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://wa.me/qr/PDEMB3HJK3HFL1"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+          </div>
+        </section>
+  
+        <section class="seccion-2">
+            <p>2025 @ Todos los derechos reservados</p>
+        </section>
+      </footer> 
+    
+         
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+    
+
+  </body>
+</html>

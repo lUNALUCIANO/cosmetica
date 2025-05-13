@@ -1,0 +1,45 @@
+
+/*Estilo de Productos*/
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: $crema;
+    
+
+    .card1{
+        margin: 20px;
+        
+        .card-body h2{
+            color: $verdefooter;
+            font-size: 36px ; 
+            text-align: center;
+            
+        }
+        p.card-text{
+            text-align: center;
+            color: $azul;
+        }
+        .botones{ 
+          display: flex;
+          justify-content: center;
+          margin: 20px;
+         
+        }
+    }
+    .card2{
+        @extend .card1;
+        p.card-text{
+            color:$celeste;
+        }
+        
+    }
+    .card3{
+        @extend .card1;
+        p.card-text{
+            color: $negro;
+        }
+    }
+    
+    
+}

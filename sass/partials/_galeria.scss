@@ -1,0 +1,95 @@
+/*Estilo de Galeria */
+
+
+
+
+.contenedor-grid img{
+    width: 100%;
+    height: 100%; 
+    border-radius: 10px;  
+    object-fit: contain; 
+}
+
+.contenedor-grid p {
+  align-items: center;
+  align-self: center;
+  background-color:$grismuyclaro; 
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(160, 90, 50, 0.15);
+  
+}
+
+.contenedor-grid{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "titulo titulo"
+    "img1 texto1 "
+    "img2 texto2 "
+    "img3 texto3"
+    "img4 texto4"
+    "img5 texto5"
+    "img6 texto6";
+
+   /* Ocupa el tamaño de la colunma del grid*/
+    grid-template-columns: 20% 75%;
+
+   /* Ocupa el tamaño en px de las filas*/
+
+    grid-template-rows: auto ;
+
+    justify-items: center;
+
+    justify-content: center;
+    padding: 2rem;
+
+    .grid-titulo{
+        grid-area: titulo;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .grid-img1{
+        grid-area: img1;
+    }
+    .grid-texto1{
+        grid-area: texto1;
+    }
+    
+    
+    .grid-img2{
+        grid-area: img2;
+    }
+    .grid-texto2{
+        grid-area: texto2;
+    }
+    
+    .grid-img3{
+        grid-area: img3;
+    }
+    .grid-texto3{
+        grid-area: texto3;
+    }
+    
+    .grid-img4{
+        grid-area: img4;
+    }
+    .grid-texto4{
+        grid-area: texto4;
+    }
+    
+    .grid-img5{
+        grid-area: img5;
+    }
+    .grid-texto5{
+        grid-area: texto5;
+    }
+    
+    .grid-img6{
+        grid-area: img6;
+    }
+    .grid-texto6{
+        grid-area: texto6;
+    }
+    
+}

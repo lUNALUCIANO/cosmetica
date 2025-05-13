@@ -1,0 +1,153 @@
+
+
+
+@import"./partials/variables";
+
+@import"./partials/index";
+
+@import"./partials/nosotros";
+
+@import "./partials/footer&header";
+
+@import"./partials/contacto";
+
+@import"./partials/galeria";
+
+
+@import"./partials/producto";
+
+@import"./partials/indexschwarkopf";
+
+@import"./partials/indexproductofidelite.scss";
+
+@import"./partials/indexkarssell";
+
+
+
+
+/*Estilo a toda la pagina*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color:"$blanco";
+    font-family:"$font";
+}
+
+
+
+/*Ubicacion de local en todas las Html*/
+
+section{
+    padding: 10px;
+}
+
+/*Estilo de Titulos, se trabajo con @include*/
+
+h1{
+   @include titulo  ($azul,40px,center,10px)
+}
+
+h2{
+     @include titulo2($azul,25px,center,10px)
+}
+
+
+
+
+/*Medidas Generales*/
+
+@media (max-width:768x) {
+    header{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .seccion-1{
+        flex-direction: column;
+    }
+
+    .contenedor-titulo{
+        margin: 20px;
+    }
+    .contenedor-grid {
+        display: block;
+
+    }
+    .contenedor-grid p{
+        text-align: center;
+    }
+    .contenedor-grid img{
+        margin:20px;
+    }
+    .container{
+        flex-direction: column;
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+
+    .animaciones > div {
+        
+      flex: 1 1 45%;
+      flex-direction: column;
+      text-align: center;
+      h4{
+        text-align: center;
+      }
+     
+    }
+    
+
+    .container2{
+        flex-direction: column;
+            width: 95%;
+        }
+
+        h2 {
+           font-size: 1.5em;
+        }
+
+        .intro p, .info-producto p, .ofertas p {
+            font-size: 1em;
+             text-align: center;
+        }
+                
+
+
+}
+
+@media (max-width: 768px) {
+  .animaciones {
+    flex-direction: column;
+    align-items: center;
+
+    .div1,
+    .div2,
+    .div3,
+    .div4 {
+      width: 90%;
+      margin-bottom: 20px;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      h4 {
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

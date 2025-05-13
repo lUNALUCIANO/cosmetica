@@ -1,0 +1,244 @@
+
+
+
+/*Estilo de Index Principal*/
+
+
+/*Carrousel con Boostrap */
+
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Importante: que se adapte automáticamente */
+    display: block;
+}
+
+
+/*Carrusel con Boostrap y Animate */
+
+
+
+.carousel-caption h3 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn-custom {
+  background-color: #8BC34A;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #689F38;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+.container2 {
+         width: 90%;
+         margin: 0 auto;
+         max-width: 1200px;
+
+        .intro{
+            background-color: #fff;
+            padding: 20px;
+             margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+            h2{
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            color: $verdehover;
+            }
+            a {
+            color: $verdehover;
+            text-decoration: none;
+            }
+ 
+           
+  
+        }
+
+
+        .info-producto{
+          background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+            h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            color: $verdehover;
+            }
+
+            .beneficios{
+
+              ul,p {
+                list-style-type: disc;
+                margin-left: 20px;
+                }
+            }
+
+            .referencia p {
+            font-style: italic;
+            color: $marronClaro;
+            } 
+        }
+
+        .ofertas{
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+            h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            color: $verdefooter;
+            }
+
+            p {
+            font-size: 1.2em;
+            background-color: #e8f5e9;
+            padding: 10px;
+            border-radius: 8px;
+            color: #388E3C;
+            }
+        }  
+}   
+
+
+
+
+
+
+
+
+/*Div con animacion y otors componentes*/
+
+
+
+.animaciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    background-color: $grismuyclaro;
+    overflow: hidden;
+
+    .div1{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        h4 {
+          
+          color:$verdehover;
+          text-align: center;
+          font-size: 40px;
+          transition: 2s;
+          
+        }
+       
+        img{
+            border-radius: 30px;
+            transition: 2s;
+        }
+
+        :hover {
+            color: $verdefooter;
+            transform: scale(0.95) ;
+        }
+        
+    }
+
+    .div2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        h4 {
+          color:$verdefooter;  
+          text-align: center;
+          font-size: 40px;
+          transition: 2s;
+        }
+        :hover{
+            color: $verdefooter;
+            transform: scale(0.95) ;
+        }
+        img{
+            border-radius: 30px;
+            transition: 2s;
+            width: 568px;
+            height: 440px;
+            overflow: hidden; 
+            object-fit: cover;
+            object-position: center;
+            
+
+        }
+    }
+
+    .div3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        h4 {
+           color:$verdehover; 
+           text-align: center;
+           font-size: 40px;
+           transition: 2s;
+          
+        }
+        img{
+            border-radius: 30px;
+            transition: 2s;
+            width: 568px;
+            height: 440px;
+            overflow: hidden; 
+            object-fit: cover;
+            object-position: center;
+        }
+        :hover{
+            color: $verdefooter;
+             transform: scale(0.95) ;
+        }
+    }
+
+    .div4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        h4 {
+           color:$verdehover;
+            text-align: center;
+           font-size: 40px;
+           transition: 2s;
+          
+        }
+        img{
+            border-radius: 30px;
+            transition: 2s;
+            width: 568px;
+            height: 440px;
+            overflow: hidden; 
+            object-fit: cover;
+            object-position: center;
+        }
+        :hover{
+            color: $verdefooter;
+             transform: scale(0.95) ;
+        }
+
+    }
+}
+   
+

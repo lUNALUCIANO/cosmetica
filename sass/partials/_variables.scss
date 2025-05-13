@@ -1,0 +1,49 @@
+
+@mixin titulo($color,$tamano,$centrado,$espacio){
+    color:$color;
+    font-size:$tamano;
+    text-align:$centrado;
+    margin:$espacio;
+
+
+}
+
+@mixin titulo2($color,$tamano,$centrado,$espacio){
+    color:$color;
+    font-size:$tamano ;
+    text-align:$centrado;
+    margin:$espacio;
+}
+
+@mixin tituloproduc($color,$letra,$centrado,$espacio){
+    color:$color;
+    font-family: $letra;
+    text-align: $centrado;
+    margin: $espacio;
+}
+
+
+
+$fondocont:#a8a8a8;
+$azuloscuro:#5f9ea0;
+$azul:#2e5772;
+$negro:#000000;
+$celesteclaro:#9dcbea;
+$celeste:#007bff;
+$naranja:#fb8500;
+$grisoscuro:#333;
+$crema:#f6f6f6;
+$blanco :#ffff;
+$grismuyclaro:#f8f9fa;
+$celesteboton:#7fc8f8;
+$colorfondo:linear-gradient(to right red, blue);
+$verdefooter:#198754;
+$verdesuperclaro:#e9f0ed;
+$verdeclaro:#d1e7dd;
+$verdehover:#4CAF50;
+$marronClaro:#666;
+
+
+$font:"Nunito Sans", sans-serif ;
+
+
