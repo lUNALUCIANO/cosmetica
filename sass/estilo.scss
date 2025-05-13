@@ -60,7 +60,7 @@ h2{
 
 /*Medidas Generales*/
 
-@media (max-width:768x) {
+@media (max-width:768px) {
     header{
         flex-direction: column;
     }
@@ -88,7 +88,7 @@ h2{
     }
     .container{
         flex-direction: column;
-        h2{
+        h5{
             text-align: center;
         }
         p{
@@ -99,11 +99,8 @@ h2{
     .animaciones > div {
         
       flex: 1 1 45%;
-      flex-direction: column;
       text-align: center;
-      h4{
-        text-align: center;
-      }
+      
      
     }
     
@@ -126,28 +123,6 @@ h2{
 
 }
 
-@media (max-width: 768px) {
-  .animaciones {
-    flex-direction: column;
-    align-items: center;
 
-    .div1,
-    .div2,
-    .div3,
-    .div4 {
-      width: 90%;
-      margin-bottom: 20px;
 
-      img {
-        width: 100%;
-        height: auto;
-      }
-
-      h4 {
-        text-align: center;
-        font-size: 28px;
-        margin-bottom: 10px;
-      }
-    }
-  }
-}
+ 

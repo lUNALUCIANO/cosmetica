@@ -135,25 +135,44 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 10px;
+    padding: 20px;
+    gap: 20px;
     background-color: $grismuyclaro;
-    overflow: hidden;
+    
 
     .div1{
-        margin-top: 10px;
-        margin-bottom: 10px;
+        width: 100%;
+        max-width: 568px;
+        height: 440px;
+        overflow: hidden;
+        border-radius: 30px;
+        transition: 2s;
+        position: relative;
+        text-align: center;
+
+       /* margin-top: 10px;
+        margin-bottom: 10px;*/
+
         h4 {
           
           color:$verdehover;
-          text-align: center;
-          font-size: 40px;
+          /*text-align: center;*/
+          /*font-size: 40px;*/
           transition: 2s;
+          margin: 10px 0;
+          font-size: 1.2rem;
           
         }
        
         img{
-            border-radius: 30px;
+            /*border-radius: 30px;*/
             transition: 2s;
+             width: 100%;
+            height: 100%;
+             object-fit: cover;
+             object-position: center;
+               display: block;
+             border-radius: 30px;
         }
 
         :hover {
@@ -164,49 +183,72 @@
     }
 
     .div2{
-        margin-top: 10px;
-        margin-bottom: 10px;
+        width: 100%;
+        max-width: 568px;
+        height: 440px;
+        overflow: hidden;
+        border-radius: 30px;
+        transition: 2s;
+        position: relative;
+        text-align: center;
+        /*margin-top: 10px;
+        margin-bottom: 10px;*/
         h4 {
           color:$verdefooter;  
-          text-align: center;
-          font-size: 40px;
+          /*text-align: center;
+          font-size: 40px;*/
           transition: 2s;
+           margin: 10px 0;
+          font-size: 1.2rem;
+          
         }
         :hover{
             color: $verdefooter;
             transform: scale(0.95) ;
         }
         img{
-            border-radius: 30px;
-            transition: 2s;
-            width: 568px;
-            height: 440px;
-            overflow: hidden; 
-            object-fit: cover;
-            object-position: center;
+             width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 30px;
             
 
         }
     }
 
     .div3{
-        margin-top: 10px;
-        margin-bottom: 10px;
+        width: 100%;
+        max-width: 568px;
+        height: 440px;
+        overflow: hidden;
+        border-radius: 30px;
+        transition: 2s;
+        position: relative;
+        text-align: center;
+
+        /*margin-top: 10px;
+        margin-bottom: 10px;*/
         h4 {
            color:$verdehover; 
-           text-align: center;
-           font-size: 40px;
+           /*text-align: center;
+           font-size: 40px;*/
            transition: 2s;
+           margin: 10px 0;
+           font-size: 1.2rem;
+          
           
         }
         img{
             border-radius: 30px;
             transition: 2s;
-            width: 568px;
-            height: 440px;
+            width: 100%;
+            height:100%;
             overflow: hidden; 
             object-fit: cover;
             object-position: center;
+            display: block;
         }
         :hover{
             color: $verdefooter;
@@ -215,13 +257,24 @@
     }
 
     .div4{
-        margin-top: 10px;
-        margin-bottom: 10px;
+        width: 100%;
+        max-width: 568px;
+        height: 440px;
+        overflow: hidden;
+        border-radius: 30px;
+        transition: 2s;
+        position: relative;
+        text-align: center;
+        /*margin-top: 10px;
+        margin-bottom: 10px;*/
         h4 {
            color:$verdehover;
-            text-align: center;
-           font-size: 40px;
+            /*text-align: center;
+           font-size: 40px;*/
            transition: 2s;
+           margin: 10px 0;
+            font-size: 1.2rem;
+          
           
         }
         img{
