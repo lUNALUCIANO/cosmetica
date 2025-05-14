@@ -52,6 +52,9 @@
   color: #4CAF50;
   text-decoration: none;
 }
+.container2 .intro .resaltado {
+  font-weight: bolder;
+}
 .container2 .info-producto {
   background-color: #fff;
   padding: 20px;
@@ -67,6 +70,9 @@
 .container2 .info-producto .beneficios ul, .container2 .info-producto .beneficios p {
   list-style-type: disc;
   margin-left: 20px;
+}
+.container2 .info-producto .beneficios .resaltado {
+  font-weight: bolder;
 }
 .container2 .info-producto .referencia p {
   font-style: italic;
@@ -91,6 +97,9 @@
   border-radius: 8px;
   color: #388E3C;
 }
+.container2 .ofertas .resaltado {
+  font-weight: bolder;
+}
 
 /*Div con animacion y otors componentes*/
 .animaciones {
@@ -110,19 +119,14 @@
   transition: 2s;
   position: relative;
   text-align: center;
-  /* margin-top: 10px;
-   margin-bottom: 10px;*/
 }
 .animaciones .div1 h4 {
   color: #4CAF50;
-  /*text-align: center;*/
-  /*font-size: 40px;*/
   transition: 2s;
   margin: 10px 0;
-  font-size: 1.2rem;
+  font-size: 30px;
 }
 .animaciones .div1 img {
-  /*border-radius: 30px;*/
   transition: 2s;
   width: 100%;
   height: 100%;
@@ -144,16 +148,12 @@
   transition: 2s;
   position: relative;
   text-align: center;
-  /*margin-top: 10px;
-  margin-bottom: 10px;*/
 }
 .animaciones .div2 h4 {
-  color: #198754;
-  /*text-align: center;
-  font-size: 40px;*/
+  color: #4CAF50;
   transition: 2s;
   margin: 10px 0;
-  font-size: 1.2rem;
+  font-size: 30px;
 }
 .animaciones .div2 :hover {
   color: #198754;
@@ -177,16 +177,12 @@
   transition: 2s;
   position: relative;
   text-align: center;
-  /*margin-top: 10px;
-  margin-bottom: 10px;*/
 }
 .animaciones .div3 h4 {
   color: #4CAF50;
-  /*text-align: center;
-  font-size: 40px;*/
   transition: 2s;
   margin: 10px 0;
-  font-size: 1.2rem;
+  font-size: 30px;
 }
 .animaciones .div3 img {
   border-radius: 30px;
@@ -211,16 +207,12 @@
   transition: 2s;
   position: relative;
   text-align: center;
-  /*margin-top: 10px;
-  margin-bottom: 10px;*/
 }
 .animaciones .div4 h4 {
   color: #4CAF50;
-  /*text-align: center;
-  font-size: 40px;*/
   transition: 2s;
   margin: 10px 0;
-  font-size: 1.2rem;
+  font-size: 30px;
 }
 .animaciones .div4 img {
   border-radius: 30px;
@@ -247,7 +239,7 @@
 }
 
 .baner {
-  background-image: url(/Cosmetica/Html/imagen/natural-cosmetics-desk_23-2148574904.jpg);
+  background-image: url(/imagen/foto\ de\ salon.jpg);
   height: 300px;
   background-repeat: no-repeat;
   background-size: 110%;
@@ -259,7 +251,7 @@
   justify-content: center;
 }
 .baner h2 {
-  color: #264653;
+  color: white;
   font-size: 40px;
 }
 
@@ -308,6 +300,7 @@ footer .seccion-1 {
   background-color: #198754;
   padding: 10px;
   color: white;
+  flex-wrap: wrap;
 }
 footer .seccion-1 h3 {
   font-size: 25px;
@@ -504,13 +497,6 @@ footer .seccion-2 p {
   justify-content: center;
   margin: 20px;
 }
-.container .card2 p.card-text {
-  color: #007bff;
-}
-.container .card3 p.card-text {
-  color: #000000;
-}
-
 /*Estilo de Schwarkopf*/
 .contenedor-1 {
   margin: 10px;
@@ -731,9 +717,6 @@ h2 {
     flex-direction: column;
     align-items: center;
   }
-  footer .seccion-1 {
-    flex-direction: column;
-  }
   .contenedor-titulo {
     margin: 20px;
   }
@@ -755,10 +738,6 @@ h2 {
   .container p {
     text-align: center;
   }
-  .animaciones > div {
-    flex: 1 1 45%;
-    text-align: center;
-  }
   .container2 {
     flex-direction: column;
     width: 95%;
@@ -771,24 +750,6 @@ h2 {
     text-align: center;
   }
 }
-/*@media screen and (max-width: 700px) {
-
-    .animaciones{
-      flex-direction: column;
-      align-items: center;
-      padding: 10px;
-
-    .div1,.div2,.div3 .div4 {
-      width: 100%;
-      max-width: 90vw; 
-      height: auto; 
-    }
-
-    .div1 .div2 .div3 .div4 img {
-      height: auto; 
-    }
-  }
-}*/
 @media screen and (max-width: 700px) {
   .animaciones {
     flex-direction: column;
@@ -809,6 +770,43 @@ h2 {
   .animaciones .div4 img {
     width: 100%;
     height: auto;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    padding: 10px;
+  }
+  .seccion-1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
+  .seccion-1 h3,
+  .seccion-1 p,
+  .seccion-1 a {
+    font-size: 16px;
+    text-align: center;
+    margin: 5px 0;
+  }
+  .redes-sociales {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5px 0;
+  }
+  .redes-sociales a {
+    margin: 0 10px;
+    font-size: 22px;
+  }
+  .seccion-2 p {
+    font-size: 14px;
+    padding: 5px 0;
+  }
+  .seccion-1 .a {
+    display: none;
+  }
+  .seccion-1 .b {
+    display: none;
   }
 }
 

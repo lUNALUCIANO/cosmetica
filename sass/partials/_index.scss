@@ -64,6 +64,9 @@
             color: $verdehover;
             text-decoration: none;
             }
+            .resaltado{
+              font-weight: bolder;
+            }
  
            
   
@@ -88,13 +91,18 @@
               ul,p {
                 list-style-type: disc;
                 margin-left: 20px;
+                
                 }
+              .resaltado{
+                font-weight: bolder;
+              }
             }
 
             .referencia p {
             font-style: italic;
             color: $marronClaro;
             } 
+             
         }
 
         .ofertas{
@@ -117,7 +125,10 @@
             border-radius: 8px;
             color: #388E3C;
             }
-        }  
+          .resaltado{
+             font-weight: bolder;
+          }
+        }
 }   
 
 
@@ -150,22 +161,19 @@
         position: relative;
         text-align: center;
 
-       /* margin-top: 10px;
-        margin-bottom: 10px;*/
+       
 
         h4 {
           
           color:$verdehover;
-          /*text-align: center;*/
-          /*font-size: 40px;*/
           transition: 2s;
           margin: 10px 0;
-          font-size: 1.2rem;
+          font-size:30px;
           
         }
        
         img{
-            /*border-radius: 30px;*/
+            
             transition: 2s;
              width: 100%;
             height: 100%;
@@ -191,15 +199,13 @@
         transition: 2s;
         position: relative;
         text-align: center;
-        /*margin-top: 10px;
-        margin-bottom: 10px;*/
+       
         h4 {
-          color:$verdefooter;  
-          /*text-align: center;
-          font-size: 40px;*/
+          color:$verdehover;  
+         
           transition: 2s;
-           margin: 10px 0;
-          font-size: 1.2rem;
+          margin: 10px 0;
+          font-size:30px;
           
         }
         :hover{
@@ -229,15 +235,13 @@
         position: relative;
         text-align: center;
 
-        /*margin-top: 10px;
-        margin-bottom: 10px;*/
+        
         h4 {
            color:$verdehover; 
-           /*text-align: center;
-           font-size: 40px;*/
+          
            transition: 2s;
            margin: 10px 0;
-           font-size: 1.2rem;
+           font-size:30px;
           
           
         }
@@ -266,15 +270,13 @@
         transition: 2s;
         position: relative;
         text-align: center;
-        /*margin-top: 10px;
-        margin-bottom: 10px;*/
+       
         h4 {
            color:$verdehover;
-            /*text-align: center;
-           font-size: 40px;*/
+           
            transition: 2s;
            margin: 10px 0;
-            font-size: 1.2rem;
+            font-size:30px;;
           
           
         }

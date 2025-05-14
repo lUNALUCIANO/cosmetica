@@ -29,16 +29,12 @@
     }
     .card2{
         @extend .card1;
-        p.card-text{
-            color:$celeste;
-        }
+       
         
     }
     .card3{
         @extend .card1;
-        p.card-text{
-            color: $negro;
-        }
+        
     }
     
     
