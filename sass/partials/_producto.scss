@@ -9,6 +9,15 @@
 
     .card1{
         margin: 20px;
+
+        .card-img-top {
+            width: 100%;
+            height: auto;
+            object-fit:contain;
+            display: block;
+            max-height: 300px;
+        }
+
         
         .card-body h2{
             color: $verdefooter;
@@ -26,6 +35,7 @@
           margin: 20px;
          
         }
+
     }
     .card2{
         @extend .card1;

@@ -1,10 +1,23 @@
 @charset "UTF-8";
+/*Estilo a toda la pagina*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: "$blanco";
+  font-family: "$font";
+}
+
 /*Estilo de Index Principal*/
 /*Carrousel con Boostrap */
 .carousel-item img {
   width: 100%;
-  height: auto; /* Importante: que se adapte automáticamente */
+  height: 400px;
   display: block;
+  object-fit: cover;
 }
 
 /*Carrusel con Boostrap y Animate */
@@ -483,6 +496,13 @@ footer .seccion-2 p {
 .container .card1, .container .card3, .container .card2 {
   margin: 20px;
 }
+.container .card1 .card-img-top, .container .card3 .card-img-top, .container .card2 .card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  max-height: 300px;
+}
 .container .card1 .card-body h2, .container .card3 .card-body h2, .container .card2 .card-body h2 {
   color: #198754;
   font-size: 36px;
@@ -674,18 +694,6 @@ footer .seccion-2 p {
 .cont-fidelite .cont-foto7 a:hover {
   transform: scale(1.1);
   color: #2e5772;
-}
-
-/*Estilo a toda la pagina*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  background-color: "$blanco";
-  font-family: "$font";
 }
 
 /*Ubicacion de local en todas las Html*/

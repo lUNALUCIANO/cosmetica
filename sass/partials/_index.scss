@@ -8,8 +8,9 @@
 
 .carousel-item img {
     width: 100%;
-    height: auto; /* Importante: que se adapte automáticamente */
+    height: 400px; 
     display: block;
+    object-fit: cover;
 }
 
 
